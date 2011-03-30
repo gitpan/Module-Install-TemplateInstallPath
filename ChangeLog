@@ -1,0 +1,10 @@
+2011-03-30 15:21 -0400  djerius  <djerius@cfa.harvard.edu>  (833c19eea180 [tip])
+
+	* ChangeLog, Changes, MANIFEST.SKIP, Makefile.PL, README,
+	lib/Module/Install/TemplateInstallPath.pm, t/00_makefile.pl,
+	t/template.t: new file.
+	* ChangeLog, Changes, MANIFEST.SKIP, Makefile.PL, README,
+	lib/Module/Install/TemplateInstallPath.pm, t/00_makefile.pl,
+	t/template.t:
+	initial release
+
