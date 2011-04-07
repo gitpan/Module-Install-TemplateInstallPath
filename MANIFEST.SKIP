@@ -1,4 +1,5 @@
-^.hg
+^\..*
+^\#
 .old$
 .bak$
 Makefile$

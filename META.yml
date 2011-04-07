@@ -4,6 +4,8 @@ author:
   - 'The Smithsonian Astrophysical Observatory'
 build_requires:
   ExtUtils::MakeMaker: 6.42
+  File::Copy::Recursive: 0
+  File::Temp: 0
   Test::Compile: 0
   Test::More: 0
   UNIVERSAL::require: 0
@@ -22,4 +24,4 @@ no_index:
     - t
 resources:
   license: http://opensource.org/licenses/gpl-3.0.html
-version: 0.01
+version: 0.02
