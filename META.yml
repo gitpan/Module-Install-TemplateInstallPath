@@ -24,4 +24,4 @@ no_index:
     - t
 resources:
   license: http://opensource.org/licenses/gpl-3.0.html
-version: 0.02
+version: 0.03

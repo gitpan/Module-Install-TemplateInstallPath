@@ -1,6 +1,9 @@
 use inc::Module::Install;
 
 use Test::More tests => 8;
+
+use File::Spec;
+
 use strict;
 use warnings;
 
@@ -13,7 +16,7 @@ is( $ARGV[0], "INSTALL_BASE=prefix", "no CL tokens" );
 
 @ARGV = ( "INSTALL_BASE=prefix" );
 template_install_path( template => '%v-%n' );
-is( $ARGV[0], "INSTALL_BASE=prefix/33-foo", "supplied template, no CL tokens" );
+is( $ARGV[0], File::Spec->catdir( 'INSTALL_BASE=prefix', '33-foo'), "supplied template, no CL tokens" );
 
 @ARGV = ( "INSTALL_BASE=prefix" );
 template_install_path( template => '%v-%n', catdir => 0 );
